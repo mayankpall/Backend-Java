@@ -1,0 +1,25 @@
+package com.bridgelabz.restapi_demo.dto;
+
+public class UserDTO {
+    private String firstName;
+    private String lastName;
+
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+}
